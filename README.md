@@ -154,7 +154,9 @@ python -m torch.distributed.launch --nproc_per_node=8 \
 
 Use `--arch=hrnet-w64` for HRNet-W64 backbone, `--arch=resnet50`  for ResNet50 backbone, and `--arch=efficientnet-b0`  for EfficientNet-b0 backbone.
 
+
 ## Contributing 
+Note that the mesh quality can be improved by apply a [SMPL parameter regressor](https://github.com/postech-ami/FastMETRO/blob/main/src/modeling/model/smpl_param_regressor.py).
 
 We welcome contributions and suggestions. 
 
